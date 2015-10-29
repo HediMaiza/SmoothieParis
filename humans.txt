@@ -1,0 +1,16 @@
+# humanstxt.org/
+# The humans responsible & technology colophon
+
+# TEAM
+
+    Mohamed Hedi Maïza
+
+# THANKS
+
+    Merci à : Oum Rayhana, Frederic G. pour le design, GrafikArt pour ses tutos.
+
+# TECHNOLOGY COLOPHON
+
+    HTML5, CSS3
+    Photoshop
+    AngularJS, Modernizr, Google Map API
