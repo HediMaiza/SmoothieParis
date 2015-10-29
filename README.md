@@ -13,7 +13,7 @@ Un petit site qui (tente) de référencer les bars à jus sur Paris.
 
 Hosted at GitHub; browse at:
 
-http://github.com/HediMaiza/SmoothieParis/master
+http://github.com/HediMaiza/SmoothieParis
 
 Or clone from:
 
