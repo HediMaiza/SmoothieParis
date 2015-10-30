@@ -62,42 +62,38 @@ body{height:100%;font-size:1.4rem;margin:0;padding:0;overflow-x:hidden;backgroun
 		MAIN NAVIGATION LEFT
 ///////////////////////////////////////////////////////////////////////////////////////////////////////
 */
-.main_navigation .searchbar *{float:left;margin-right:15px}
-.main_navigation .searchbar *:last-child{margin-right:0}
+.searchbar *{float:left;margin-right:15px}
+.searchbar *:last-child{margin-right:0}
 
-.main_navigation h1{font-size:2.4rem;color:#fff;line-height:4rem;margin:0;font-family:'Kaushan Script', cursive}
-.navbar-brand{float:left;height:50px;line-height:4rem}
+.title{font-size:2.4rem;color:#fff;line-height:4rem;margin:0;font-family:'Kaushan Script', cursive}
 .myawesomebutton{padding:13px 5px;color:#fff}
 
 .main_navigation input, .main_navigation select{height:40px;padding:5px;border:2px #ccc solid}
 .main_navigation input{width:43%}
 .main_navigation select{min-width:150px}
 
-.box{position:absolute;width:350px;;top:20%;left:50%;margin:0 0 0 -100px;padding:30px 10px;background:#3C8C86;z-index:9999;color:#fff;
+.box{position:absolute;width:350px;top:20%;left:50%;margin:0 0 0 -100px;padding:30px 10px;background:#3C8C86;z-index:9999;color:#fff;
 	box-shadow:0 0 5px #555;text-align:center;font-size:1.4em
 }
-.box .close{height:15px;width:15px;float:right;position:absolute;right:10px;top:10px;cursor:pointer;transform:rotate(45deg);
+.close-box{height:15px;width:15px;position:absolute;right:10px;top:10px;cursor:pointer;transform:rotate(45deg);
 	font-size:2.5rem}
 
 /* ////////////////////////////////////////////////////////////////////////////////////////////////////
 		MAP GOOGLE
 ///////////////////////////////////////////////////////////////////////////////////////////////////////
 */
-#map .begin :any(p, img){position:absolute;text-align:center;left:50%}
-#map .begin :-moz-any(p, img){position:absolute;text-align:center;left:50%}
-#map .begin :-webkit-any(p, img){position:absolute;text-align:center;left:50%}
-#map .begin > p{width:370px;margin-left:-185px;top:230px}
-#map .begin >img{display:block;margin-left:-25px;top:270px}
+.begin :any(p, img),.begin :-moz-any(p, img),.begin :-webkit-any(p, img){position:absolute;text-align:center;left:50%}
+.begin > p{width:370px;margin-left:-185px;top:230px}
+.begin >img{display:block;margin-left:-25px;top:270px}
 .angular-google-map-container{height:750px;position:absolute;top:0;bottom:0;right:0;left:0} /* Hauteur total de la carte */
 .angular-google-map{background:#ddd} /* pendant le chargement */
 
+/* Gmap Windows Styles */
 .marker{clear:both}
 .marker h3{color:#fff;background:#3C8C86;padding:2px 10px}
 .marker img{float:left;margin-right:10px}
 
-/*
-http://stackoverflow.com/questions/1554893/google-maps-api-v3-infowindow-not-sizing-correctly
-*/
+/* http://stackoverflow.com/questions/1554893/google-maps-api-v3-infowindow-not-sizing-correctly */
 .gm-style-iw{overflow:hidden;height:190px;width:250px}
 .gm-style-iw > div{overflow:hidden;width:250px;height:190px}
 
@@ -121,8 +117,7 @@ article h3{
 .news article:hover .bubble{background-color:rgba(18,101,95,0)}
 
 .bubble{position:absolute;bottom:0;left:0;color:#fff;background-color:rgba(18,101,95,0.7);
-	transition:background-color 500ms ease 150ms;padding:10px;text-align:center}
-
+	transition:background-color 550ms ease 150ms;padding:10px;text-align:center}
 
 /* ////////////////////////////////////////////////////////////////////////////////////////////////////
 		SIDE RESULT
@@ -132,9 +127,9 @@ article h3{
 .sideResult .result{border-bottom:2px #12655f solid;padding:0;min-height:130px;position:relative;margin-bottom:5px;overflow:hidden}
 .sideResult a{display:block;height:130px;color:#fff;background:url(../img/map.jpg) no-repeat}
 .sideResult p{position:absolute;bottom:0;z-index:1;padding:5px;margin:0;background-color:rgba(0,0,0,0.3)}
-.sideResult p.company{bottom:auto;background:#90b837;padding:5px;display:inline;line-height:23px;word-wrap:break-word;
+.sideResult .company{bottom:auto;background:#90b837;padding:5px;display:inline;line-height:23px;word-wrap:break-word;
 	transition:all 250ms ease}
-.sideResult p.adresse{color:#333;background-color:rgba(255,255,255,0.7)}
+.sideResult .adresse{color:#333;background-color:rgba(255,255,255,0.7)}
 .sideResult img{background-size:cover;min-width:100%;height:100%;position:absolute;top:0}
 .sideResult a:hover > p.company{padding:5px 5px 5px 10px;background:#3ba130}
 

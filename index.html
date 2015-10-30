@@ -12,7 +12,7 @@
         <link rel="stylesheet" href="css/layout.css">
         <link rel="stylesheet" href="css/skeleton.css">
         <link rel="stylesheet" href="css/main.css">
-        <!--<link rel="stylesheet" href="css/built.css">-->
+        <!--<link rel="stylesheet" href="css/built.css"> une fois Gruntise -->
 
         <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Kaushan+Script:400|Raleway:400,300">
     </head>
@@ -29,7 +29,7 @@
           <div class="container">
             <div class="row">
               <div class="twelve columns searchbar" role="search">
-                <a class="navbar-brand" href="#"><h1>{{titre}}</h1></a>
+                <a href="#"><h1 class="title">{{titre}}</h1></a>
                 <img src="img/marker.png" alt="">
                 <input type="text" id="open-button" class="yourSearch" autofocus ng-model="yourSearch" placeholder="Recherche">
                 <select ng-model="order">
@@ -43,7 +43,7 @@
           </div>
         </div> <!-- FIN .main_navigation -->
 
-        <div ng-show="toggle" class="box">{{contactR}} {{numeroTel}} <div class="close" ng-click="toggle = !toggle">+</div></div>
+        <div ng-show="toggle" class="box">{{contactR}} {{numeroTel}} <div class="close-box" ng-click="toggle = !toggle">+</div></div>
 
         <!-- GOOGLE MAP centrale -->
         <div id="map" ng-controller="MapController">
