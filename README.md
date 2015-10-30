@@ -18,3 +18,12 @@ http://github.com/HediMaiza/SmoothieParis
 Or clone from:
 
 git://github.com/HediMaiza/SmoothieParis.git
+
+Utilisation des technos suivantes :
+
+html5
+Skeleton css
+Angular JS (1.2.28)
+Angular Google Map API
+Photoshop CC
+No jQuery
