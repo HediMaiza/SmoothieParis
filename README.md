@@ -27,6 +27,6 @@ Skeleton css
 
 Angular JS (1.2.28)
 
-Angular Google Map API
+Angular Google Map API : https://github.com/angular-ui/angular-google-maps
 
 Photoshop CC

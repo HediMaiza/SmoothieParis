@@ -1,0 +1,48 @@
+[
+    {
+        "id": "4b058748f964a520d48822e3",
+        "name": "DeliZ",
+        "latitude": 48.87,
+        "longitude": 2.3655,
+        "picture": "http://lorempixel.com/200/140/food/1",
+        "category": "fruit"
+    },
+    {
+        "id": "4b137e4bf964a520629723e3",
+        "name": "Mango juice",
+        "latitude": 48.825,
+        "longitude": 2.368,
+        "picture": "http://lorempixel.com/200/140/food/5",
+        "category": "legumes"
+    },
+    {
+        "id": "4b137e4bf964a520629723e3",
+        "name": "FruitsandJuice",
+        "latitude": 48.8301,
+        "longitude": 2.305,
+        "picture": "http://lorempixel.com/200/140/food/3",
+        "category": "legumes"
+    },
+
+    {
+        "id": "4b1e0dbbf964a5201c1724e3",
+        "name": "Smoothin",
+        "latitude": 48.832,
+        "longitude": 2.33,
+        "picture": "http://lorempixel.com/200/140/food/4",
+        "category": "soupe"
+    },
+    {
+        "id": "186578823377969156_51070887",
+        "name": "Insta Photo",
+        "title": "Final photo location of the day, the fab eightyone restaurant",
+        "user": "violetatpasadena",
+        "link": "http://instagram.com/p/KW3HOKDeAE/",
+        "thumb": "http://distilleryimage8.s3.amazonaws.com/09c6bfe298df11e1af7612313813f8e8_5.jpg",
+        "full": "http://distilleryimage8.s3.amazonaws.com/09c6bfe298df11e1af7612313813f8e8_7.jpg",
+        "latitude": 48.86,
+        "longitude": 2.305,
+        "picture": "http://lorempixel.com/200/140/food/2",
+        "category": "veget"
+    }
+]

@@ -98,6 +98,23 @@ body{height:100%;font-size:1.4rem;margin:0;padding:0;overflow-x:hidden;backgroun
 .gm-style-iw > div{overflow:hidden;width:250px;height:190px}
 
 /* ////////////////////////////////////////////////////////////////////////////////////////////////////
+		SIDE RESULT
+///////////////////////////////////////////////////////////////////////////////////////////////////////
+*/
+.sideResult .top-panel{margin:7px 0 15px 0}
+.result{border-bottom:2px #12655f solid;padding:0;min-height:130px;position:relative;margin-bottom:5px;overflow:hidden}
+.voirtout{color:#fff;margin:0}
+.voirtout:hover,.voirtout:focus{color:#fff;background:#247973}
+.sideResult a{display:block;height:130px;color:#fff;background:url(../img/map.jpg) no-repeat}
+.sideResult p{position:absolute;bottom:0;z-index:1;padding:5px;margin:0;background-color:rgba(0,0,0,0.3)}
+.sideResult .company{bottom:auto;background:#90b837;padding:5px;display:inline;line-height:23px;word-wrap:break-word;
+	transition:all 250ms ease}
+.sideResult .adresse{color:#333;background-color:rgba(255,255,255,0.7)}
+.sideResult img{background-size:cover;min-width:100%;height:100%;position:absolute;top:0}
+.sideResult a:hover > p.company{padding:5px 5px 5px 10px;background:#3ba130}
+
+
+/* ////////////////////////////////////////////////////////////////////////////////////////////////////
 		NEWS
 ///////////////////////////////////////////////////////////////////////////////////////////////////////
 */
@@ -118,20 +135,6 @@ article h3{
 
 .bubble{position:absolute;bottom:0;left:0;color:#fff;background-color:rgba(18,101,95,0.7);
 	transition:background-color 550ms ease 150ms;padding:10px;text-align:center}
-
-/* ////////////////////////////////////////////////////////////////////////////////////////////////////
-		SIDE RESULT
-///////////////////////////////////////////////////////////////////////////////////////////////////////
-*/
-.sideResult .top-panel{background:#12655f;color:#fff;width:100%;z-index:8;padding:5px 15px;margin-bottom:15px}
-.sideResult .result{border-bottom:2px #12655f solid;padding:0;min-height:130px;position:relative;margin-bottom:5px;overflow:hidden}
-.sideResult a{display:block;height:130px;color:#fff;background:url(../img/map.jpg) no-repeat}
-.sideResult p{position:absolute;bottom:0;z-index:1;padding:5px;margin:0;background-color:rgba(0,0,0,0.3)}
-.sideResult .company{bottom:auto;background:#90b837;padding:5px;display:inline;line-height:23px;word-wrap:break-word;
-	transition:all 250ms ease}
-.sideResult .adresse{color:#333;background-color:rgba(255,255,255,0.7)}
-.sideResult img{background-size:cover;min-width:100%;height:100%;position:absolute;top:0}
-.sideResult a:hover > p.company{padding:5px 5px 5px 10px;background:#3ba130}
 
 /* ////////////////////////////////////////////////////////////////////////////////////////////////////
 		FOOTER
