@@ -1,0 +1,23 @@
+{
+  "name": "smoothie",
+  "version": "1.0.0",
+  "description": "site de référencement des smoothie a smoothie sur paris",
+  "main": "Gruntfile.js",
+  "dependencies": {
+    "grunt": "^0.4.5",
+    "grunt-contrib-cssmin": "^0.10.0"
+  },
+  "devDependencies": {
+    "grunt": "^0.4.5"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/HediMaiza/SmoothieParis.git"
+  },
+  "author": "Hedi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HediMaiza/SmoothieParis/issues"
+  },
+  "homepage": "https://github.com/HediMaiza/SmoothieParis#readme"
+}
