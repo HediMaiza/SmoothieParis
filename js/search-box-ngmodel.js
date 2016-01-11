@@ -1,12 +1,14 @@
 'use strict';
 
-var smoothie = angular.module('search-box-example', ['uiGmapgoogle-maps']);
+var smoothie = angular.module('smoothieApp', ['uiGmapgoogle-maps']);
 
 smoothie.controller('MainController', ['$scope', function ($scope) {
     $scope.titre = 'Smooth à Paris';
     $scope.apropos = 'A Propos';
     $scope.contactR = 'Contacter le responsable :';
     $scope.numeroTel = '0658474019';
+    $scope.chargement = 'Veuillez patienter pendant le chargement de la carte...';
+    $scope.rights = 'SmoothieParis - Tous droits réservés - 2015';
 }]);
 
 // BTN DANS HEADER

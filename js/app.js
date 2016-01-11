@@ -111,14 +111,14 @@ smoothie.controller('MapController', function ($scope) {
 
     $scope.$watch( 'orderProp', function ( val ) {
         $scope.filteredMarkersProperty = $filter('filter')($scope.markersProperty, val);
-        $scope.zoomProperty = 11;
+        $scope.zoomProperty = 12;
         calcFocus();
     });
 
     $scope.showAll = function($event){
         $scope.orderProp ="0";
         $scope.filteredMarkersProperty = $scope.places;
-        $scope.zoomProperty = 11;
+        $scope.zoomProperty = 12;
         calcFocus();
 
     }
