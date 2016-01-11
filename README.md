@@ -21,12 +21,14 @@ git://github.com/HediMaiza/SmoothieParis.git
 
 # Utilisation des technos suivantes :
 
-html5
+html5/css
 
-Skeleton css
+Framework css : Skeleton
 
 Angular JS (1.2.28)
 
 Angular Google Map API : https://github.com/angular-ui/angular-google-maps
 
 Photoshop CC
+
+Sublime text 2
